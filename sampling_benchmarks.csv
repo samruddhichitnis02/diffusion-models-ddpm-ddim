@@ -1,0 +1,4 @@
+method,steps,batch_size,total_time_seconds,time_per_step_ms,speedup,deterministic
+DDPM,100,16,0.866,8.66,1.0,False
+DDIM,50,16,0.374,7.48,2.32,True
+DDIM,20,16,0.152,7.6,5.7,True

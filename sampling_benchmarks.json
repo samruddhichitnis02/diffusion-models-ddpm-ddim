@@ -1,0 +1,32 @@
+{
+    "benchmarks": [
+        {
+            "method": "DDPM",
+            "steps": 100,
+            "batch_size": 16,
+            "total_time_seconds": 0.866,
+            "time_per_step_ms": 8.66,
+            "speedup": 1.0,
+            "deterministic": false
+        },
+        {
+            "method": "DDIM",
+            "steps": 50,
+            "batch_size": 16,
+            "total_time_seconds": 0.374,
+            "time_per_step_ms": 7.48,
+            "speedup": 2.32,
+            "deterministic": true
+        },
+        {
+            "method": "DDIM",
+            "steps": 20,
+            "batch_size": 16,
+            "total_time_seconds": 0.152,
+            "time_per_step_ms": 7.6,
+            "speedup": 5.7,
+            "deterministic": true
+        }
+    ],
+    "summary": "DDPM vs DDIM comparative sampling metrics on MNIST"
+}
